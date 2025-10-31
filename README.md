@@ -1,4 +1,4 @@
-# Proyek mvc_user
+# Proyek project-mvc
 
 ## Cara Pakai di Laragon
 
@@ -12,8 +12,8 @@
 ```bash
 <VirtualHost *:80>
        DocumentRoot "C:/laragon/www/project-mvc/public"
-       ServerName mvc.test
-       ServerAlias *.mvc.test
+       ServerName project-mvc.test
+       ServerAlias *.project-mvc.test
        <Directory "C:/laragon/www/project-mvc/public">
            AllowOverride All
            Require all granted
@@ -25,5 +25,5 @@
 
 4. **Akses:**
 ```bash
-   http://mvc.test
+   http://project-mvc.test
 ```
